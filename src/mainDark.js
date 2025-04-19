@@ -29,7 +29,7 @@ export function dark(element){
             <div id="table">
               <div class="table1">Frontend
               <div class="imgStack">
-                <br><img src="./public/img/HTML5.png">
+                <br><img src="../public/img/HTML5.png">
                 <br><img src="./public/img/CSS3.png">
                 <br><img src="./public/img/JavaScript.png">
                 <br><img src="./public/img/Vite.js.png">
