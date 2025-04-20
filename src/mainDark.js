@@ -56,7 +56,7 @@ export function dark(element){
           </div>
         </div>
       </div>
-      <footer>fdsfsd</footer>
+      <footer></footer>
     `
     document.getElementById('meDark').addEventListener('click',()=>shem())
 }
