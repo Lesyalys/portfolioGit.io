@@ -6,7 +6,7 @@ export function dark(element){
         <div id = "rightBlock">
     
           <div id="meDark">  
-            <img src="./public/img/Frame.png">
+            <img src="./img/Frame.png">
           </div>
     
           <div id="info">
@@ -29,25 +29,25 @@ export function dark(element){
             <div id="table">
               <div class="table1">Frontend
               <div class="imgStack">
-                <br><img src="./public/img/HTML5.png">
-                <br><img src="./public/img/CSS3.png">
-                <br><img src="./public/img/JavaScript.png">
-                <br><img src="./public/img/Vite.js.png">
-                <br><img src="./public/img/Tailwind CSS.png">
-                <br><img src="./public/img/Three.js.png">
+                <br><img src="./img/HTML5.png">
+                <br><img src="./img/CSS3.png">
+                <br><img src="./img/JavaScript.png">
+                <br><img src="./img/Vite.js.png">
+                <br><img src="./img/Tailwind CSS.png">
+                <br><img src="./img/Three.js.png">
               </div>
               </div>
               <div class="table1">Backend
               <div class="imgStack">
-                <br><img src="./public/img/Node.js.png">
-                <br><img src="./public/img/Microsoft SQL Server.png">
+                <br><img src="./img/Node.js.png">
+                <br><img src="./img/Microsoft SQL Server.png">
               </div>
               </div>
               <div class="table1">Design
               <div class="imgStack">
-                <br><img src="./public/img/Figma.png">
-                <br><img src="./public/img/Blender.png">
-                <br><img src="./public/img/Adobe Photoshop.png">
+                <br><img src="./img/Figma.png">
+                <br><img src="./img/Blender.png">
+                <br><img src="./img/Adobe Photoshop.png">
                 <br><img src="https://framerusercontent.com/images/3zFbB2jdDFJ02sWnh7hLRZFujk.svg">
               </div>
               </div>
