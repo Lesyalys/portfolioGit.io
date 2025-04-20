@@ -31,7 +31,6 @@
                 <br><img src="./img/JavaScript.png">
                 <br><img src="./img/Vite.js.png">
                 <br><img src="./img/Tailwind CSS.png">
-                <br><img src="./img/Three.js.png">
               </div>
               </div>
               <div class="table1">Backend
