@@ -1,4 +1,5 @@
-import './style.css'
+// import './style.css'
+import {shem} from './modeShem'
 
 export function dark(element){
     element.innerHTML = `
@@ -6,7 +7,7 @@ export function dark(element){
         <div id = "rightBlock">
     
           <div id="meDark">  
-            <img src="./img/Frame.png">
+            <img id="logo" src="./img/Frame.png">
           </div>
     
           <div id="info">
@@ -58,5 +59,5 @@ export function dark(element){
       </div>
       <footer>fdsfsd</footer>
     `
-    document.getElementById('meDark').addEventListener('click',()=>console.log('hi'))
+    document.getElementById('meDark').addEventListener('click',()=>shem())
 }
