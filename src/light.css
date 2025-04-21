@@ -13,6 +13,9 @@
     -moz-osx-font-smoothing: grayscale;
     transition: all 500ms ease-in-out;
   }
+  a{
+    color:#242424;
+  }
   
   .screen{
     display: flex;
@@ -40,7 +43,7 @@
     
   }
   img{
-    width: 50%;
+    width: 30%;
   }
   #info{
     display: flex;
