@@ -9,7 +9,7 @@ export function shem(){
 
         logo.src = isDark ? './img/Frame2.png' : './img/Frame.png';
         // mode.setAttribute
-        mode.href = isDark ? './src/style.css' : './src/light.css'
+        mode.href = isDark ? '/portfolioGit.io/assets/index-CrcVQEFh.css' : '/portfolioGit.io/assets/index-CrcVQEFh.css'
         localStorage.setItem('theme',isDark ? 'dark' : 'light');
 
         const saveTheme = localStorage.getItem('theme');
