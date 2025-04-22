@@ -4,7 +4,7 @@ export function toggleTheme() {
     const isDark = document.body.classList.toggle('light-shem');
 
     if (logo){
-        logo.src = isDark ? './img/Frame.png' : './img/Frame2.png'
+        logo.src = isDark ? './img/Frame2.png' : './img/Frame.png'
     }
 
     localStorage.setItem('theme',isDark ? 'dark' : 'light');
