@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --bg-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,17 +14,13 @@
   transition: all 500ms ease-in-out;
 }
 
-.dark-shem{
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-}
-
 .light-shem{
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 }
+
 a{
-  color:#ebe8e8;
+  color:#aaa8a8;
   transition: all 500ms ease-in-out
 }
 

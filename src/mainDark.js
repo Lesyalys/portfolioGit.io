@@ -1,5 +1,5 @@
 // import './style.css'
-import {shem} from './modeShem'
+import {toggleTheme} from './modeShem'
 
 export function dark(element){
     element.innerHTML = `
@@ -58,5 +58,5 @@ export function dark(element){
       </div>
       <footer></footer>
     `
-    document.getElementById('meDark').addEventListener('click',()=>shem())
+    document.getElementById('meDark').addEventListener('click',()=>toggleTheme())
 }
