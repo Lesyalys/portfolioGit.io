@@ -1,6 +1,5 @@
 export function shem(){
-    document.addEventListener('DOMContentLoaded', function() {
-        document.body.classList.toggle('dark-shem');
+    document.body.classList.toggle('dark-shem');
         const mode = document.getElementById('mode');
         console.log(mode)
         const logo = document.getElementById('logo');
@@ -18,7 +17,6 @@ export function shem(){
         else if (saveTheme === 'light'){
             document.body.classList.add('light-shem');
         }
-    })
 
 
 }
