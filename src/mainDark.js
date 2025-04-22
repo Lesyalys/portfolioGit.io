@@ -1,7 +1,9 @@
 // import './style.css'
 import {shem} from './modeShem'
+import {applySavedTheme} from './modeShem'
 
 export function dark(element){
+    document.addEventListener('DOMContentLoaded', applySavedTheme);
     element.innerHTML = `
     <div class="screen">
         <div id = "rightBlock">
