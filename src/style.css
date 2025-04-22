@@ -18,6 +18,11 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
+
+.light-shem{
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+}
 a{
   color:#ebe8e8;
   transition: all 500ms ease-in-out
