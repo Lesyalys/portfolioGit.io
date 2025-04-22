@@ -1,9 +1,10 @@
-export function shem(){
-        document.body.classList.toggle('dark-shem');
-        const mode = document.head.querySelector('#mode');
+export function shem(element){
+        element.body.classList.toggle('dark-shem');
+
+        const mode = element.head.querySelector('#mode');
         console.log(mode)
-        const logo = document.getElementById('logo');
-        const isDark = document.body.classList.contains('dark-shem');
+        const logo = element.getElementById('logo');
+        const isDark = element.body.classList.contains('dark-shem');
 
         logo.src = isDark ? './img/Frame2.png' : './img/Frame.png';
         // mode.setAttribute
@@ -12,10 +13,10 @@ export function shem(){
 
         const saveTheme = localStorage.getItem('theme');
         if (saveTheme === 'dark'){
-            document.body.classList.add('dark-shem');
+            element.body.classList.add('dark-shem');
         }
         else if (saveTheme === 'light'){
-            document.body.classList.add('light-shem');
+            element.body.classList.add('light-shem');
         }
 
 
