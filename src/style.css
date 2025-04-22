@@ -15,8 +15,8 @@
 }
 
 .light-shem{
-  --text-color: #242424;
-  --bg-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
 }
 
 a{
