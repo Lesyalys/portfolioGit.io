@@ -1,6 +1,6 @@
 export function shem(){
-    document.body.classList.toggle('dark-shem');
-        const mode = document.getElementById('mode');
+        document.body.classList.toggle('dark-shem');
+        const mode = document.head.querySelector('#mode');
         console.log(mode)
         const logo = document.getElementById('logo');
         const isDark = document.body.classList.contains('dark-shem');
