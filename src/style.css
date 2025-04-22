@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease-in-out;
 }
+
+.dark-shem{
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
 a{
   color:#ebe8e8;
   transition: all 500ms ease-in-out
