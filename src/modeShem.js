@@ -1,21 +1,18 @@
-import frame1 from '/public/img/Frame.png';
-import frame2 from '/public/img/Frame2.png';
-import '/src/style.css';
-import '/src/light.css';
+export function shem(){
+        const mode = document.getElementById('mode');
+        const logo = document.getElementById('logo');
 
-export function shem() {
-    const mode = document.getElementById('mode');
-    const logo = document.getElementById('logo');
-
-    if (mode && logo) {
-        const currentStyle = mode.getAttribute('href');
-        
-        if (currentStyle.includes('style.css')) {
-            mode.setAttribute('href', 'src/light.css');
-            logo.setAttribute('src', frame2);
-        } else {
-            mode.setAttribute('href', 'src/style.css');
-            logo.setAttribute('src', frame1);
+        if (mode){
+            const style = mode.getAttribute('href');
+            if (style === '/portfolioGit.io/src/style.css'){
+                console.log('dark')
+                mode.setAttribute('href','/portfolioGit.io/src/light.css');
+                logo.setAttribute('src','./img/Frame2.png');
+            }
+            else if (style === '/portfolioGit.io/src/light.css'){
+                console.log('light')
+                mode.setAttribute('href','/portfolioGit.io/src/style.css');
+                logo.setAttribute('src','./img/Frame.png');
+            }
         }
-    }
 }
