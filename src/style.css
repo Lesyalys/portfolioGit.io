@@ -15,6 +15,7 @@
 }
 a{
   color:#ebe8e8;
+  transition: all 500ms ease-in-out
 }
 
 

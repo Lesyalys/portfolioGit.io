@@ -1,6 +1,5 @@
 // import './style.css'
 import {shem} from './modeShem'
-{/* <br><img src="/portfolioGit.io/public/img/HTML5.png"></img> */}
 
 export function dark(element){
     element.innerHTML = `
