@@ -1,5 +1,5 @@
-import frame1 from './public/img/Frame.png';
-import frame2 from './public/img/Frame2.png';
+import frame1 from '/public/img/Frame.png';
+import frame2 from '/public/img/Frame2.png';
 import styleCSS from './src/style.css';
 import lightCSS from './src/light.css';
 
