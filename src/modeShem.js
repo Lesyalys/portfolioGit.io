@@ -1,15 +1,19 @@
 export function shem(){
     document.body.classList.toggle('dark-shem');
-        // const mode = document.getElementById('mode');
+         const mode = document.getElementById('mode');
         const logo = document.getElementById('logo');
         const isDark = document.body.classList.contains('dark-shem');
 
-        logo.src = isDark ? '/img/Frame2.png' : '/img/Frame.png';
+        logo.src = isDark ? './img/Frame2.png' : './img/Frame.png';
         localStorage.setItem('theme',isDark ? 'dark' : 'light');
 
         const saveTheme = localStorage.getItem('theme');
         if (saveTheme === 'dark'){
-            document.body.classList.add('dark-shem')
+            document.body.classList.add('dark-shem');
+            mode.setAttribute('href','./src/style.css');
+        }
+        else {
+            mode.setAttribute('href','./src/style.css');
         }
 
         // if (mode){
