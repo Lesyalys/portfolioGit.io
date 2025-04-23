@@ -2,7 +2,17 @@
 import {toggleTheme} from './modeShem'
 
 export function dark(element){
+  // const r = new rive.Rive({
+  //   src: "/public/img/rive.riv",
+  //   convas: document.getElementById('canvas'),
+  //   autoplay: true,
+  //   stateMachine: 'SM1',
+  //   onLoad: () => {
+  //     r.resizeDrawingSurfaceToCanvas();
+  //   }
+  // })
     element.innerHTML = `
+    
     <div class="screen">
         <div id = "rightBlock">
     
